@@ -849,11 +849,8 @@ Window:AddMinimizeButton({
     Button = { Image = "rbxassetid://81886512783938", BackgroundTransparency = 0 },
     Corner = { CornerRadius = UDim.new(35, 1) },
 })
--- تعريف الـ Tab في البداية
-local InfoTab = Window:MakeTab({ 
-    Title = "تخريب التحديث الجديد", 
-    Icon = "rbxassetid://13364900349" 
-})
+local InfoTab = Window:MakeTab({ Title = "تخريب التحديث الجديد", Icon = "rbxassetid://13364900349" })
+
 
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
